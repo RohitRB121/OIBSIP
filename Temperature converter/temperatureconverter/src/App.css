@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.navbar{
+  background-color: #2a213e;
+}
+
+.temp-container{
+  position: absolute; 
+  top: 30%;
+  left: 50%;
+  transform: translateY(-30%) translateX(-50%)
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
